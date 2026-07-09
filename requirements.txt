@@ -1,0 +1,19 @@
+# Blockchain Anchoring Framework — Python dependencies
+# Python >= 3.10 required (uses PEP 604 union syntax and built-in generics)
+#
+# Install:  pip install -r requirements.txt
+
+# Deep learning (training reference model LeNet-5 on MNIST)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Blockchain interaction (web3.py 6.x API: to_checksum_address, is_connected, raw_transaction)
+web3>=6.0.0
+eth-account>=0.10.0
+
+# Cryptography (Keccak-256 / SHA-256 helpers)
+pycryptodome>=3.19.0
+
+# Visualization & numerics (experiment outputs: gas benchmark chart, etc.)
+matplotlib>=3.7.0
+numpy>=1.24.0

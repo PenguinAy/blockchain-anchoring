@@ -1,0 +1,27 @@
+{
+  "name": "blockchain_anchor",
+  "version": "1.0.0",
+  "description": "Solidity contracts (DataAnchor / WeightAnchor) and Hardhat project for anchoring deep-learning training data and model weights to EVM-compatible blockchains via Merkle commitments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "merkle-tree",
+    "deep-learning",
+    "anchoring",
+    "evm",
+    "provenance"
+  ],
+  "author": "Blockchain Anchoring Research Project",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-viem": "^3.0.9",
+    "@types/node": "^22.20.0",
+    "hardhat": "^3.9.0",
+    "typescript": "~6.0.3"
+  },
+  "type": "module"
+}
